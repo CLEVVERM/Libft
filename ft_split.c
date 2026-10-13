@@ -6,7 +6,7 @@
 /*   By: msotnych <msotnych@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/08 16:49:06 by msotnych      #+#    #+#                 */
-/*   Updated: 2026/10/09 15:23:40 by msotnych      ########   odam.nl         */
+/*   Updated: 2026/10/13 17:59:07 by msotnych      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ char	**ft_split(char const *s, char c)
 
 // int main(void)
 // {
-// 	char s[] = "qwertyXXXXXXhuiXXXXXblia";
+// 	char s[] = "xxxxxxqwertyXXXXXXhuiXXXXXblia";
 // 	char c = 'X';
 // 	printf("%s\n", *ft_split(s, c));
 // }

@@ -6,13 +6,13 @@
 /*   By: msotnych <msotnych@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/12 16:47:54 by msotnych      #+#    #+#                 */
-/*   Updated: 2026/10/12 18:00:00 by msotnych      ########   odam.nl         */
+/*   Updated: 2026/10/13 11:47:03 by msotnych      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	new -> next = *lst;
 	*lst = new;
